@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Reto Formularios" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Formularios en HTML</h1>
+    </header>
+
+    <section>
+        <h2>Datos Personales</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required placeholder="Name Last_name"><br>
+        <label>
+            Corro electrónico:
+            <input type="email" name="email" id="email" required placeholder="my_mail@example.com"><br>
+        </label>
+        <label>
+            Teléfono
+            <input type="tel" name="teléfono" id="teléfono" required placeholder="+52 99887765">
+        </label>
+
+        <h2>
+            Género
+        </h2>
+        <input type="radio" name="lista" id="masc" >
+        <Label for="masc">Masculino</Label><br>
+        <input type="radio" name="lista" id="fem" >
+        <Label for="fem">Femenino</Label><br>
+        <input type="radio" name="lista" id="otro" >
+        <Label for="otro">Otro</Label><br>
+        
+        <h2>
+            Preferencias
+        </h2>
+        <input type="checkbox" id="musica">
+        <label for="musica">Música</label><br>
+        <input type="checkbox" id="deporte">
+        <label for="deporte">Deporte</label><br>
+        <input type="checkbox" id="lectura">
+        <label for="lectura">Lectura</label><br>
+
+        <h2>Comentarios</h2>
+        <textarea cols="50" rows="5" placeholder="Write your comment"></textarea><br>
+        <input type="submit" value="Enviar">
+    </section>
+</body>
+</html>
